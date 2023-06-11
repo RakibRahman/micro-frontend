@@ -1,7 +1,7 @@
-import { create } from "zustand";
+import create from "zustand";
 
 const useCountStore = create((set) => ({
-  count: 0,
+  count: 10,
   increase: () => set((state) => ({ count: state.count + 1 })),
   removeAll: () => set({ count: 0 }),
 }));

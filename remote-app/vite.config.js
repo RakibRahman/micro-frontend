@@ -21,5 +21,6 @@ export default defineConfig({
     target: "esnext",
     minify: false,
     cssCodeSplit: false,
+    // watch: "./vite.config.js",
   },
 });
